@@ -26,7 +26,7 @@
 
 .dclock {
   width: auto;
-  height: 200px;
+  height: 250px;
 }
 
 a {
@@ -250,14 +250,13 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media screen and (max-width: 1900px) {
   .clock {
-    order: 2;
-  }
-
-  .dclok {
     order: 1;
   }
 
   .top-banner {
+    order: 2;
+  }
+  .dclok {
     order: 3;
   }
 }
@@ -272,15 +271,14 @@ body {
   }
 
   .clock {
-    order: 1;
+    order: 2;
+  }
+  .top-banner {
+    order: 3;
   }
 
   .dclok {
-    order: 2;
-  }
-
-  .top-banner {
-    order: 3;
+    order: 1;
   }
 }
 
@@ -374,7 +372,7 @@ body {
 }
 
 .analog_clock {
-  width: 16rem;
-  height: 16rem;
+  width: 17rem;
+  height: 17rem;
   border-radius: 50%;
 }

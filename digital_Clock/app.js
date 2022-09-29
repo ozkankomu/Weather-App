@@ -11,13 +11,13 @@ const clock = () => {
   let minutes = date.getMinutes();
   let seconds = date.getSeconds();
   let days = [
-    "Pazar",
-    "Pazartesi",
-    "Salı",
-    "Çarşamba",
-    "Perşembe",
-    "Cuma",
-    "Cumartesi",
+    "(Pazar) (Sunday)",
+    "(Pazartesi) (Monday)",
+    "(Salı) (Tuesday)",
+    "(Çarşamba) (Wednesday)",
+    "(Perşembe) (Thursday)",
+    "(Cuma) (Friday)",
+    "(Cumartesi) (Saturday)",
   ];
 
   let time = "AM";
@@ -37,7 +37,7 @@ const clock = () => {
     seconds = `0${seconds}`;
   }
   display.innerHTML = `${day} . ${month} . ${year}`;
-  dayy.innerHTML = `(${days[date.getDay()]})`;
+  dayy.innerHTML = `${days[date.getDay()]}`;
   display1.innerHTML = `${hours}:${minutes}:${seconds} ${time}`;
 };
 
