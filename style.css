@@ -62,8 +62,6 @@ ul {
 
 body {
   font: 1rem/1.3 "Roboto", sans-serif;
-  background: var(--bg_main);
-  color: var(--text_dark);
   padding: 70px;
   background-image: url(https://i.pinimg.com/originals/f9/7f/9e/f97f9e42b265dae189958b6b5f5085a1.png);
   width: 100vw;
@@ -170,8 +168,6 @@ body {
   position: relative;
   padding: 40px 10%;
   border-radius: 20px;
-  background: var(--text_light);
-  color: var(--text_med);
   background-image: url("https://www.bihaberolma.com/wp-content/uploads/2020/08/gokyuzu-neden-mavidir-1.jpg");
   background-position: center;
   background-size: cover;
