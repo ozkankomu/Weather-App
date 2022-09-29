@@ -103,9 +103,9 @@ const getWeatherDataFromApi = async () => {
     // });
   } catch (error) {
     console.log(error);
-    msg.innerText = `Sehir `;
+    msg.innerText = "(City not found. Please enter a valid city name!)";
     setTimeout(() => {
-      msg.innerText = "(City not found. Please enter a valid city name ...!)";
+      msg.innerText = "";
     }, 5000);
   }
   form.reset();
