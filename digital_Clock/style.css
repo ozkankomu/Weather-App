@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.display,
+.display1 {
+  font-size: 3rem;
+  color: rgb(106, 5, 5);
+  text-shadow: 2px 2px 3px black;
+  display: inline;
+}
+
+.display1 {
+  border-top: 5px solid darkred;
+}
+
+.clock,
+.date {
+  display: inline;
+}
+
+.day {
+  font-size: 3rem;
+  color: rgb(106, 5, 5);
+  text-shadow: 2px 2px 3px black;
+}
