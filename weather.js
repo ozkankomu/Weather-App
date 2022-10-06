@@ -26,11 +26,11 @@ const getWeatherDataFromApi = async () => {
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&appid=${tokenKey}&units=${units}&lang=${lang}`;
 
   try {
-    // const response = await fetch(url).then(response => response.json());
-    const response = await axios(url);
+    const response = await fetch(url).then((response) => response.json());
+    // const response = await axios(url);
     console.log(response);
     //obj destr.
-    const { main, sys, weather, name } = response.data;
+    const { main, sys, weather, name } = response;
 
     const iconUrl = `http://openweathermap.org/img/wn/${weather[0].icon}@2x.png`;
     const iconUrlAWS = `https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/${weather[0].icon}.svg`;

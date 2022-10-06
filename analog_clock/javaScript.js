@@ -17,9 +17,9 @@ function tiktak() {
 
 setInterval(tiktak, 1000); // tiktak fonksiyonumu her sn de oynatacağım
 
-document
-  .querySelector(".clock")
-  .addEventListener("mousemove", arkaPlanRengiDegistir);
+// document
+//   .querySelector(".clock")
+//   .addEventListener("mousemove", arkaPlanRengiDegistir);
 
 // function arkaPlanRengiDegistir(e) {
 //     document.querySelector('.clock').style.backgroundColor = `rgb(${e.clientX % 255}, ${e.clientY % 255}, ${(e.clientX + e.clientY) % 255})`

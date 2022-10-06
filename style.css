@@ -249,7 +249,7 @@ body {
 
 /* MQ
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@media screen and (max-width: 1900px) {
+/* @media screen and (max-width: 1900px) {
   .clock {
     order: 1;
   }
@@ -260,7 +260,20 @@ body {
   .dclok {
     order: 3;
   }
-}
+} */
+
+/* @media screen and (max-width: 1500px) {
+  .clock {
+    order: 1;
+  }
+  .top-banner {
+    order: 2;
+  }
+
+  .dclok {
+    order: 3;
+  }
+} */
 
 @media screen and (max-width: 1000px) {
   body {
@@ -271,16 +284,16 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .clock {
-    order: 2;
+  /* .clock {
+    order: 1;
   }
   .top-banner {
-    order: 3;
+    order: 2;
   }
 
   .dclok {
-    order: 1;
-  }
+    order: 3;
+  } */
 }
 
 @media screen and (max-width: 700px) {
