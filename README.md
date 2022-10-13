@@ -1,7 +1,6 @@
-<p align="center">
-<a href="https://www.linkedin.com/in/ozkankomu/" target="_blank"><img src="avatar.png" alt="screenshot" target=_blanked></a>
+<p align="left">
+<a href="https://www.linkedin.com/in/ozkankomu/" target="_blank"><img src="photo1.png" alt="screenshot" width=680px height=350px></a>
 </p>
-
 
 
 
